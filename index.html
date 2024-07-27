@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Challenge Decodificador Alura</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container__header">
+            <div class="header">
+                <a href="https://cursos.alura.com.br/user/elineisoninacio" target="_blank" rel="noopener"> 
+                    <img class="logo" src="images/alura.svg" alt="logo Alura">
+                </a>                                   
+            </div>  
+        </div>
+    </header>
+    <main>
+        <article class="container">
+            <section class="left" id="left">
+                <textarea class="inputtextarea" id="textoInput" placeholder="Digite seu texto" autofocus></textarea>
+                <div class="content_botoes">
+                    <span class="info">
+                        <img src="images/advert.svg" alt="advertência" />
+                        Apenas letras minúsculas e sem acento
+                    </span>
+                    <div class="botoes">
+                        <button id="button__criptografar" class="button__criptografar">Criptografar</button>
+                        <button id="button__descriptografar" class="button__descriptografar">Descriptografar</button>
+                    </div>
+                </div>
+            </section>
+            <section class="right" id="right">
+                <img id="figura" class="figura" src="images/figura.svg" alt="desenho de um garoto com uma lupa">
+                <textarea id="textoFinal" class="textoFinal" placeholder="Nenhuma mensagem encontrada"></textarea>
+                <p id="textoInfo" class="info">Digite um texto que você deseja criptografar ou descriptografar.</p>
+                <button class="button__copiar bn_ocultar" id="button__copiar">Copiar</button>
+                <button id="button__limpar" class="button__limpar">Limpar</button>
+            </section>
+        </article>
+    </main>
+    <footer class="footer ">
+        <h1 class="criador">Criado por 
+            <a href="https://www.instagram.com/elineison_/" target="_blank" class="usuario" rel="noopener">
+                Elineison<br>
+            </a>
+        </h1>
+        <p class="footer">
+            Programa ONE Oracle+Alura<br>Turma 7 2024
+        </p>
+        <div>
+            <a href="https://github.com/Elineison" target="_blank" rel="noopener">
+                <img class="links" src="images/github.svg" alt="logo github">
+            </a>
+            
+            <a href="https://www.linkedin.com/in/elineison-inacio-de-sousa/" target="_blank" rel="noopener">
+                <img class="links" src="images/linkedin.svg" alt="logo linkedin">
+            </a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
