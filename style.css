@@ -212,7 +212,7 @@ textarea::placeholder {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-  font-family: 'inter', sans-serif;
+    font-family: 'inter', sans-serif;
 }
 .criador{
 	font-size: 13px;
